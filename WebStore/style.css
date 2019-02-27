@@ -1,0 +1,41 @@
+body
+{
+  background-color: LightCyan;
+}
+
+table, tr, td
+{
+  text-align: center;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+#important
+{
+  background-color: LightCoral;
+}
+
+#top
+{
+  background-color: LightCoral;
+}
+
+#input
+{
+  background-color: LightBlue;
+}
+
+#total
+{
+  background-color: LightGreen;
+}
+
+#imag
+{
+  border-radius: 15px;
+}
+
+.form td
+{
+  background-color: LightBlue;
+}

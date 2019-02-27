@@ -1,0 +1,87 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen">
+  </head>
+  <body>
+    <center>
+      <h1>
+        My Store
+      </h1>
+    </center>
+    <div>
+      <form action="customerBackEnd.php" method="post" onsubmit="return CheckValidity()">
+        <center>
+          <table id="form" class="form">
+            <tr>
+              <td>
+                <h4>
+                  Beachball:
+                </h4>
+              </td>
+              <td>
+                <h4>
+                  Basketball:
+                </h4>
+              </td>
+              <td>
+                <h4>
+                  Football:
+                </h4>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <img id="imag" src="https://dictionary.cambridge.org/us/images/thumb/ball_noun_001_01090.jpg?version=4.0.72"
+                     height="200px" width="200px"/>
+              </td>
+              <td>
+                <img id="imag" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Basketball.jpeg/220px-Basketball.jpeg"
+                     height="200px" width="200px"/>
+              </td>
+              <td>
+                <img id="imag" src="https://images-na.ssl-images-amazon.com/images/I/810s6el6lYL._SX425_.jpg"
+                     height="200px" width="200px"/>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Price: $1<br>
+                Quantity:<input id="ITEM1Q" type="number" name="item1">
+              </td>
+              <td>
+                Price: $2<br>
+                Quantity:<input id="ITEM2Q" type="number" name="item2">
+              </td>
+              <td>
+                Price: $3<br>
+                Quantity:<input id="ITEM3Q" type="number" name="item3">
+              </td>
+            </tr>
+            <tr>
+              <td colspan="3">
+                <br>
+                Username:<input id="USERNAME" type="text" name="Username"><br>
+                Password:<input id="PASSWORD" type="password" name="Password">
+              </td>
+            </tr>
+            <tr>
+              <td colspan="3">
+                <br>
+                <h3> Choose a shipping method: </h3>
+                <input id="Ship1" type="radio" value="1" name="SHIP"> Free 7 day <br>
+                <input id="Ship2" type="radio" value="2" name="SHIP"> $50.00 over-night <br>
+                <input id="Ship3" type="radio" value="3" name="SHIP"> $5.00 3-day <br>
+              </td>
+            </tr>
+          </table>
+          <br>
+          <button onclick="event.preventDefault(); Reset();">Reset</button>
+          <button type="submit">Submit</button>
+        </center>
+      </form>
+    </div>
+    <div>
+    </div>
+    <script src="formChecker.js"></script>
+  </body>
+</html>
