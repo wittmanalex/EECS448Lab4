@@ -39,3 +39,13 @@ table, tr, td
 {
   background-color: LightBlue;
 }
+
+#submit
+{
+  background-color: green;
+}
+
+#reset
+{
+  background-color: red;
+}
